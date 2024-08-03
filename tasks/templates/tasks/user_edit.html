@@ -7,6 +7,6 @@
   {{ form.as_p }}
   <input type="submit" value="Actualizar.">
 </form>
-<a href="{% url 'tasks:user_detail' user.id %}">Regresar</a>
+<a href="{% url 'tasks:index' %}">Regresar</a>
 <a href="{% url 'tasks:user_delete' user.id %}">Dar de baja</a>
 {% endblock %}
